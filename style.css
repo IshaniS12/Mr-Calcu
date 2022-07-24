@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+header{
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./calcu\ backgrd.jpg);
+   height: 100vh;
+   background-size: contain;
+   background-position: center;
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{ 
+    background-color: white;
+    color: rgb(27, 165, 203);
+    transition: 0.5s;
+}
+li.active a{
+    background-color: white;
+    color: rgb(27, 165, 203);
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text h1{
+    color: #fff;
+    font-size: 60px;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(27, 165, 203);
+    transition: 0.5s;
+}
+.contnr{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./calcu\ backgrd.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.img{
+    mix-blend-mode: multiply;
+    max-width: 100%;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.txt h1{
+    color: black;
+     margin-bottom: 30px;
+}
+.txt p{
+
+    text-align: left;
+    font-size: 26px;
+}
+.click{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.bt{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.bt:hover{
+    background-color: white;
+    color: rgb(27, 165, 203);
+    transition: 0.5s;
+}
+}
+
